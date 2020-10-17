@@ -1,0 +1,14 @@
+{
+    "CodigoFactura": "001d",
+    "cliente": "pruebadesarrollo2",
+    "ciudad":"Bogota",
+    "nit": "1014267700",
+    "totalFactura": 20.278,
+    "subtotal":16426,
+    "iva": 3852,
+    "FechaCreacion": new Date("2020/10/12"),
+    "Estado" : "primerrecordatorio",
+    "pagado":false
+    
+    
+}
