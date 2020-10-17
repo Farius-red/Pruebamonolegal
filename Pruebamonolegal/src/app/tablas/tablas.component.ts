@@ -9,14 +9,26 @@ import {FacturasService} from './../facturas.service';
 })
 
 export class TablasComponent implements OnInit {
-
+     
   datos:any[]=[];
-  constructor(private _datos:FacturasService) { 
+  cambiarestado:boolean=true;
+  editEstado:any={
+    estado:''
+  }
+   
 
+  constructor(private _datos:FacturasService, ) { 
+    
     this.datos= _datos.obtenerdatos();
+  
   }
 
   ngOnInit(): void {
   }
 
+
+   cambioEstado(){
+     
+   }
+   
 }
